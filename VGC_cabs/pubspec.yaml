@@ -1,0 +1,48 @@
+name: vgc_cabs
+description: Clone of the BLA BLA car app in Flutter
+version: 1.0.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
+
+  # Add your dependencies here
+
+  # Example:
+  # cupertino_icons: ^1.0.2
+
+  # Add your dev dependencies here
+
+  # Example:
+  # flutter_lints: ^1.0.0
+
+  # Add your flutter packages here
+
+  # Example:
+  # flutter_localizations:
+  #   sdk: flutter
+
+  # Add your flutter assets here
+
+  # Example:
+  # - assets/images/
